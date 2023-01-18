@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3757/3757968.png">
+</head>
+<body>
+    <!--- MENU HEADER --->
+<div class="contenedor-header">
+    <header>
+        <div class="logo">
+<a href="#">CV</a>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+</div>
+
+
+<!--- SECCION INICIO --->
+<section id="inicio" class="inicio">
+    <div class="contenido-banner">
+        <div class="contenedor-img">
+            <img src="https://randomuser.me/api/portraits/men/34.jpg" alt="No fue posible cargar la imagen correctamente">
+        </div>
+        <h1>DWIGHT GONZALES</h1>
+        <h2>Desarrollador Web - Senior Web Developer</h2>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+</section>
+
+
+<!--- SECCION SOBRE MI --->
+<section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p><span>¡Bienvenidos a mi CV! </span>Hola a todos, mi nombre es Dwight Gonzales y soy desarrollador web freelancer. Si has llegado a mi página web eso quiere decir que estas interesado en tener tu propia página o aplicación, ya sea para una empresa, tu negocio o uso personal, te invito a que te pongas en contacto conmigo y asi poder desarrollar una idea juntos.</p>
+
+        <div class="fila">
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Fecha de Nacimiento:</strong>
+                        10/03/1985
+                    </li>
+                    <li>
+                        <strong>Teléfono:</strong>
+                        (877) 685-5865
+                    </li>
+                    <li>
+                        <strong>E-Mail:</strong>
+                        dwight.gonzales@gmail.com
+                    </li>
+                    <li>
+                        <strong>Dirección:</strong>
+                        5474 Wycliff Ave, Estados Unidos
+                    </li>
+                    <li>
+                        <strong>Cargo:</strong>
+                        Desarrollador Web Freelance
+                    </li>
+                </ul>
+        </div>
+        <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+                <div class="interes">
+                    <i class="fa-solid fa-gamepad"></i> 
+                        <span>VIDEOJUEGOS</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-music"></i>  
+                        <span>MUSICA</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-film"></i>
+                        <span>PELICULAS</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-pen"></i>
+                        <span>DISEÑO</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-code"></i>
+                        <span>PROGRAMAR</span>
+                </div>
+            </div>
+        </div>
+        <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+    </div>
+</section>
+
+<!--- SECCION HABILIDADES --->
+<section class="habilidades" id="habilidades">
+    <div class="contenido-seccion">
+        <h2>Habilidades</h2>
+        <div class="fila">
+            <div class="col">
+                <h3>Habilidades Técnicas</h3>
+                <div class="habilidad">
+                    <span>JavaScript</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span>HTML/CSS</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span>Adobe Photoshop</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>99%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span>Adobe Premiere</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>55%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span>Python</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Habilidades Profesionales</h3>
+                <div class="habilidad">
+                    <span>Marketing</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span>Perfeccionista</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span>Dedicación</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span>Community Manager</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---SECCION CURRICULUM --->
+<section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educación</h3>
+                <div class="item izq">
+                    <h4>Universidad y Cursos</h4>
+                    <span class="casa">Ticmas Academy</span>
+                    <span class="fecha">2019 - 2022</span>
+                    <p>En el 2019 empecé un curso sobre programación para refrescar, aumentar y reforzar mis conocimientos a pesar de haber estudiado hace muchos años el desarrollo web. Además, siempre hay cosas nuevas por aprender con los lenguajes de programación.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Universidad y Cursos</h4>
+                    <span class="casa">Curso sobre diseño web UI/UX</span>
+                    <span class="fecha">2015 - 2019</span>
+                    <p>Siempre me gustó el diseño web y el maquetado de las aplicaciones/páginas, por eso en el 2015 comencé un curso sobre diseño web.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Universidad y Cursos</h4>
+                    <span class="casa">Universidad del Código Fuente (UCF)</span>
+                    <span class="fecha">2004 - 2009</span>
+                    <p>Acá empezo mi carrera como desarrollador web. Donde aprendí la mayoría de cosas que se hoy en día y que a lo largo de los años fui perfeccionando.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col derecha">
+                <h3>Experiencia laboral</h3>
+                <div class="item der">
+                    <h4>Desarrollador Web</h4>
+                    <span class="casa">Freelance</span>
+                    <span class="fecha">2017 - Presente</span>
+                    <p>En el 2017 decidí volverme desarrollador web freelance. Para desarrollar mejores ideas con mis clientes y seguir perfeccionado mis conocimientos por mi cuenta.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Diseñador Web UI/UX</h4>
+                    <span class="casa">Google</span>
+                    <span class="fecha">2012 - 2017</span>
+                    <p>En el 2012 Google me contrató para trabajar como diseñador de páginas web y/o aplicaciones para celulares. Sumado a eso fui aprendiendo de a poco programas como Adobe Photoshop y Premiere.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Front End Developer</h4>
+                    <span class="casa">Twitter</span>
+                    <span class="fecha">2010 - 2012</span>
+                    <p>Tuve una propuesta de trabajo de Twitter para trabajar como Front End Developer y ese fue mi primer trabajo desarrollando para una empresa.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+
+
+                
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---SECCION PORTFOLIO --->
+<section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="pngtree-mobile-ui-ux-development-purple-design-concept-image_860922.jpg" alt="No fue posible cargar la imagen correctamente">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Maquetado Web UI/UX</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="https://img.freepik.com/vector-gratis/computadora-portatil-icono-isometrico-codigo-programa-desarrollo-software-aplicaciones-programacion-neon-oscuro_39422-971.jpg?w=900&t=st=1673997879~exp=1673998479~hmac=275969121f454b7090e904b089c722313315eb3273891702ea6a620458f87f90" alt="No fue posible cargar la imagen correctamente">
+                <div class="overlay">
+                    <h3>Front End Developer</h3>
+                    <p>Desarrollo Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="programador-isometrico-codificando-nuevo-proyecto-habilidades-programacion-desarrollo-web-sitios-web-web-banner-ilustracion-proyecto-equipo-ingenieros-sitio-web-php-html-css-js_589019-3104.webp" alt="No fue posible cargar la imagen correctamente">
+                <div class="overlay">
+                    <h3>Desarrollo Web</h3>
+                    <p>Armado de páginas web y apps</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="360_F_318606217_Hk8jo2MVoI33SQOkYrfOF929J7JgIP0P.jpg" alt="No fue posible cargar la imagen correctamente">
+                <div class="overlay">
+                    <h3>Proyectos básicos</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="proyectos avanzados.jpg" alt="No fue posible cargar la imagen correctamente">
+                <div class="overlay">
+                    <h3>Proyectos avanzados</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="4884785-768x432.jpg" alt="No fue posible cargar la imagen correctamente">
+                <div class="overlay">
+                    <h3>Otros</h3>
+                    <p>Otros lenguajes</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!---SECCION CONTACTO --->
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+            <!--- FORMULARIO --->
+            <div class="col">
+                 <input type="text" placeholder="Nombre">
+                 <input type="text" placeholder="Número de telefono">
+                 <input type="text" placeholder="E-Mail">
+                 <input type="text" placeholder="Asunto">
+                 <textarea name="" id="" cols="30" rows="10" placeholder="Detalla aquí el motivo de tu consulta"></textarea>
+                 <button>
+                    Enviar <i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                 </button>
+            </div>
+            <!--- MAPA --->
+            <div class="col">
+                <img src="simple-azure-maps.png" alt="No fue posible carga la imagen correctamente">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Ubicación: Nueva York, Manhattan
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            Mi Teléfono: (877) 685-5865
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            E-Mail: dwight.gonzales@gmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--- FOOTER --->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
